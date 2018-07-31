@@ -1,0 +1,4 @@
+---
+default: -c
+pretty: --format pretty
+url: https://automacaocombatistaa.herokuapp.com/

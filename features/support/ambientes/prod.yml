@@ -1,0 +1,6 @@
+---
+  default: -p pretty -c
+  pretty: --format pretty
+  url: https://automacaocombatista.herokuapp.com/
+
+  
