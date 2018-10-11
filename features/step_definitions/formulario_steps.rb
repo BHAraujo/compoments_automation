@@ -5,7 +5,7 @@ When("preencho o formulario com as seguintes informacoes:") do |table|
 end
 
 When("clico no botao criar") do
-    formulario.criar_btn.click
+    formulario.clicar_botao_criar
 end
 
 Then("a tela deve conter a mensagem") do |mensagem|
@@ -13,7 +13,7 @@ Then("a tela deve conter a mensagem") do |mensagem|
 end
 
 When("acesso a lista de usuarios") do
-    formulario.lista_usuarios_link.click
+    formulario.click_link_lista_usuarios
 end
 
 When("quantidade de usuarios deve ser {string}") do |valor|

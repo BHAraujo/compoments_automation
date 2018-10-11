@@ -8,7 +8,7 @@ Feature: Selecionar as informaçoe via dropdown e select
       Background: Preparar o ambiente
               Given que esteja na tela de Busca de elementos - dropdown e select
 
-
+      @dropdown          
       Scenario Outline: Clicar no dropdown
               When clico no botao Mail Box
               And clico no texto "<texto>"

@@ -3,17 +3,14 @@ When("efetuo um clique no link {string}") do |nome|
 end
 
 When("clico no botao {string}") do |botao|
-  dict_botao = {"Raised" => botoes.botao_raised,
-                "Floating" => botoes.botao_floating,
-                "Flat" => botoes.botao_flat,
-                "Submmit" => botoes.botao_submmit}
-  dict_botao[botao].click
+    botoes.clicar_no_botao(botao)
 end
 
 #radio
 When("seleciono o radio com valor {string}") do |radio|
-    find("label[for='#{radio}']").click
+  find("label[for='#{radio}']").click
 end
+
 
 Then("o radio {string} {string} deve estar selecionado") do |radio, cond|
   decisao = {"sim" => "on", "nao" => nil}
@@ -41,13 +38,11 @@ end
 
 #dropdown e select
 When("clico no botao Mail Box") do
-      dropdown.mail_box.click
+      dropdown.clicar_botao_mail_box
 end
 
 And("clico no texto {string}") do |texto|
-    dict_dropdown = {"Inbox" => dropdown.inbox, "Unread" => dropdown.unread,
-                     "Sent" => dropdown.sent, "Outbox" => dropdown.outbox}
-    dict_dropdown[texto].click
+  dropdown.clicar_no_texto(texto)
 end
 
 Given("seleciono o Browser Favorito {string}") do |browser|

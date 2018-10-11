@@ -6,7 +6,7 @@ Feature: Testar os componentes radio e checkbox
       Background: Preparar o ambiente
           Given que esteja na tela de Busca de elementos - radio e checkbox
 
-
+      @radio    
       Scenario Outline: Selecionar o radio do tipo 1 e tipo 2
             When seleciono o radio com valor "<nome_radio>"
             Then o radio "<nome_radio>" "<decisao>" deve estar selecionado

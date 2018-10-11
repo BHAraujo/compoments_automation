@@ -7,7 +7,7 @@ Feature: Criar um novo usuario
       Background: Prepara o ambiente
             Given que esteja na tela Formulario - Criar Usuario
 
-        
+    @formulario
     Scenario: Cadastro de usuario
             When preencho o formulario com as seguintes informacoes:
             | nome  | ultimo_nome |    email       |
@@ -17,7 +17,7 @@ Feature: Criar um novo usuario
             """
             Usuário Criado com sucesso
             """
-
+    @formulario
     Scenario: Listar os usuarios cadastrados
             When acesso a lista de usuarios
             When quantidade de usuarios deve ser "110"
