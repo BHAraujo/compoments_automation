@@ -9,8 +9,8 @@ require "rspec"
 require_relative "pages_helpers.rb"
 require_relative "helper.rb"
 
-World(Capybara::DSL)
 
+World(Capybara::DSL)
 World(PageObject)
 World(Helper)
 
