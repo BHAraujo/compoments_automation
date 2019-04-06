@@ -43,7 +43,8 @@ Given("que esteja na tela Widgets - Datapicker") do
 end
 
 Then("a foto do {string} deve ser exibida") do |image|
-  expect(links.image[:alt]).to have_content(image)
+  # byebug
+  expect(links.image[:alt]).to start_with(image)
 end
 
 Then("{string} a pagina deve conter a mensagem {string}") do |cond, mensagem|

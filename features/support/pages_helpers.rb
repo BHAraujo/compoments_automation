@@ -31,19 +31,19 @@ module PageObject
   end
 
   def autocomplete
-    autocomplete ||= AutoComplete.new
+    @autocomplete ||= AutoComplete.new
   end
 
   def dragdrop
-    dragdrop ||= DragDrop.new
+    @dragdrop ||= DragDrop.new
   end
 
   def mousehover
-    mousehover ||= MouseHover.new
+    @mousehover ||= MouseHover.new
   end
 
   def datapicker
-    datapicker ||= Datapicker.new
+    @datapicker ||= Datapicker.new
   end
-  
+
 end

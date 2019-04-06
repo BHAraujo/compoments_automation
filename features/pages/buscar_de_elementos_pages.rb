@@ -24,7 +24,7 @@ class Botoes < SitePrism::Page
                   "Floating": botao_floating,
                   "Flat": botao_flat,
                   "Submmit": botao_submmit}
-    dict_botao[botao].click
+    dict_botao[botao.to_sym].click
   end
 
 end

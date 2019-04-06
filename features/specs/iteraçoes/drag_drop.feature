@@ -6,7 +6,7 @@
       Background: Preparar o ambiente
             Given que esteja na tela de Iteraçoes - Drag And Drop
 
-
+            
       Scenario: Arrastar emoji com drag drop
             When clico e arrasto o emoji
             Then o emoji "sim" deve estar dentro do quadro
