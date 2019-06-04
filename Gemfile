@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "byebug"
+# gem "byebug"
 gem "capybara"
 gem "cucumber"
 gem "rspec"

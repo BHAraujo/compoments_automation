@@ -30,7 +30,9 @@
   - Ambiente: `prod --> Para executar o testes no ambiente de produção, "homolog" para executar no ambiente de homologação.`
 
   - Browser: `:selenium --> Executar os testes com o navegador Firefox.`
-
+             `:selenium_headless --> Executar os testes com o navegador Firefox Headless.`
+             `:selenium_chrome --> Executar os testes com o navegador Chrome.`  
+             `:selenium_chrome_headless --> Executar os testes com o navegador Chrome Headless.`  
   - html_report: `--format progress --format html --out=reports/html/features_report.html "--out=reports/html/features_report.html" caminho onde será salvo o relatório.`
 
 

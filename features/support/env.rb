@@ -1,4 +1,4 @@
-require "byebug"
+# require "byebug"
 require "capybara"
 require 'capybara/dsl'
 require "cucumber"

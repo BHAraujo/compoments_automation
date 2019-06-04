@@ -1,6 +1,6 @@
 class Links < SitePrism::Page
 
-  set_url  "buscaelementos/links"
+  set_url  "/buscaelementos/links"
 
   element :all_mensagem_redirect_h5, ".red-text.text-darken-1"
   element :image, "body > div.row > div.col.s9 > div:nth-child(3) > div > img"
