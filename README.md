@@ -21,7 +21,7 @@
      Fazer o download do webdriver Firefox compatível com a versão do browser, link https://github.com/mozilla/geckodriver/releases ;
     Setar o webdriver como variável de ambiente do seu sistema operacional.`
 
-##Executar o projeto##
+**Executar o projeto**
   `Arquivo cucumber.yml default: -p bdd -p html_report -c - -p bdd --> Exibir os steps sendo executados em tempo real; - -p html_report --> Gerar o      relatório do(s) cenário(s) executado(s)`
 
 **Cucumber**
@@ -35,7 +35,7 @@
              `:selenium_chrome_headless --> Executar os testes com o navegador Chrome Headless.`  
   - html_report: `--format progress --format html --out=reports/html/features_report.html "--out=reports/html/features_report.html" caminho onde será salvo o relatório.`
 
-##Docker##
+**Docker**
   ` Para executar os testes dentro do container do Docker`
 
   - Na raiz do projeto digitar o comando `sudo docker image build -t <nomedaimagem> . `
@@ -46,5 +46,5 @@
       Exemplo: `sudo docker run --name container_geckodriver geckodriver`
 
 
-##Nome: Bruno Henrique Araujo
-##Email: lbruno.henrique.araujo@gmail.com
+**Nome:** Bruno Henrique Araujo
+**Email:** lbruno.henrique.araujo@gmail.com
