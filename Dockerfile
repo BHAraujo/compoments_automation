@@ -11,7 +11,7 @@ RUN apt-get -qqy install libgtk-3-dev
 RUN apt-get install libdbus-glib-1-2
 
 # Instalar o driver do Firefox (Geckodriver)
-RUN gem install geckodriver-helper && gecko_updater
+RUN gem install geckodriver-helper -v 0.23.0 && gecko_updater
 
 #Criar pasta para copiar o projeto para dentro do container
 RUN mkdir compoments_automation

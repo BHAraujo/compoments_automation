@@ -35,6 +35,16 @@
              `:selenium_chrome_headless --> Executar os testes com o navegador Chrome Headless.`  
   - html_report: `--format progress --format html --out=reports/html/features_report.html "--out=reports/html/features_report.html" caminho onde será salvo o relatório.`
 
+##Docker##
+  ` Para executar os testes dentro do container do Docker`
+
+  - Na raiz do projeto digitar o comando `sudo docker image build -t <nomedaimagem> . `
+    Exemplo: `sudo docker iamge build -t geckodriver .`
+      Obs: **O '.' sinaliza que você deseja criar a imagem com as Configurações contidas no arquivo `Dockerfile`**
+
+  - Em seguida executar o comando: `sudo docker run --name <nomedocontainer> geckodriver`
+      Exemplo: `sudo docker run --name container_geckodriver geckodriver`
+
 
 ##Nome: Bruno Henrique Araujo
 ##Email: lbruno.henrique.araujo@gmail.com
