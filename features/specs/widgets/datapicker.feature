@@ -13,9 +13,9 @@
 
               Examples: Datas
                     |      data        | valor_input_data |
-                    | 1/December/2018  |  Dec 01, 2019    |
+                    | 1/December/2018  |  Dec 01, 2020    |
                     | 5/December/2017  |  Dec 05, 2017    |
                     | 15/December/2016 |  Dec 15, 2016    |
-                    | 10/May/2018      |  May 10, 2019    |
+                    | 10/May/2020      |  May 10, 2019    |
                     | 20/May/2017      |  May 20, 2017    |
                     | 30/May/2016      |  May 30, 2016    |
